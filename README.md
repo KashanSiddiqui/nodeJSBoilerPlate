@@ -1,6 +1,6 @@
 # NodeBoilerPlate
 ### Installation
-npm install `<br/>`
+npm install <br/>
 Open [http://localhost:4001](http://localhost:4001) to view it in the browser.
 ### Run
 node index
