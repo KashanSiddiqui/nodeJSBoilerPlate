@@ -1,0 +1,4 @@
+{
+    "connectionString": "mongodb+srv://hasanrasheed:Hasan@123@cluster0-0kmmw.mongodb.net/test?retryWrites=true&w=majority",
+    "secret": "worldcerts"
+}
