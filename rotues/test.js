@@ -3,6 +3,7 @@ var router = express.Router();
 const Test = require('../services/test')
 const checkAuth=require("../utils/jwt-Auth");
 const jwt = require('jsonwebtoken');
+
 router.post('/addData', function (req, res) {
     Test.addTestData(req).then((response) => {
         res.status(201).send(
@@ -25,6 +26,7 @@ router.post('/addData', function (req, res) {
             )
         })
 })
+module.exports = router;
 
 
 
