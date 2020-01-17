@@ -15,7 +15,7 @@ Node js boiler plate with login and signup routes. Mongoose database is used for
  
  Few keys that needed to be updated. Create config.json and .env file and update things that are mentioned below
 
-* Upadtes Required
+* Updates Required
   - Update JWT secret key in .env file for encryption and generation of token
   - Update mongoose private key in config.json file 
   - Update Stripe secret key  in .env file 
