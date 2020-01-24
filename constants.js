@@ -1,7 +1,13 @@
 //Payment Responses
-export const paymentFailure="Payment Failed"
-export const paymentSuccess="Payment Successful"
+const paymentFailure="Payment Failed"
+const paymentSuccess="Payment Successful"
 
 //Email Responses
-export const emailFailure="Email not sent"
-export const emailSuccess="Email sent successfully"
+const emailFailure="Email not sent"
+const emailSuccess="Email sent successfully"
+module.exports={
+    emailFailure:emailFailure,
+    emailSuccess:emailSuccess,
+    paymentFailure:paymentFailure,
+    paymentSuccess:paymentSuccess
+}
